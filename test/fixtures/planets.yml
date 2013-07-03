@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  mass: 1.5
+  orbit: 1.5
+  type: 
+  moons: 1
+  rings: false
+  period: 1.5
+
+two:
+  name: MyString
+  mass: 1.5
+  orbit: 1.5
+  type: 
+  moons: 1
+  rings: false
+  period: 1.5

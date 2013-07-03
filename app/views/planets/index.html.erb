@@ -1,0 +1,4 @@
+<% @planets.each do |planet| %>
+  <%= planet.name %> has <%= pluralize(planet.moons, 'moon')%>.
+  <br>
+<%end%>

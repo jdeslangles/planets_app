@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+Planet.create  name: 'Saturn', moons: 62, orbit: 9.5, mass: 95.2, period: 29, planet_type: 'i', rings: true
