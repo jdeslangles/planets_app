@@ -1,0 +1,17 @@
+<h1>New Planet</h1>
+
+<!-- <form method='post' action='/planets'> The action of this form will be to post the result to the given url ---- now I changed all the html into rails helper-->
+<%= form_for(@planet) do |f| %>
+
+  Name:
+ <!--  <input type='text' name='name'> -->
+  <%= f.text_field :name %>
+
+  Orbit:
+<!--   <input type='text' name='orbit'> -->
+  <%= f.text_field :orbit %>
+
+<!-- <button>Let there be planet</button> -->
+  <%= f.submit 'Let there be planet' %>
+
+<%end%>
