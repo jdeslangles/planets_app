@@ -1,0 +1,5 @@
+  <%= planet.name %> has <%= pluralize(planet.moons, 'moon')%>.
+   <%= link_to 'show', planet %> <!-- no need for planet_path(planet), b/c of resources; it's an object -->
+   <%= link_to 'edit', edit_planet_path(planet) %> <!-- need path, b/c it's rails helper -->
+   <%= link_to 'destroy', planet, method: :delete, data: { confirm: 'Are you sure?' } %>
+    <br>
